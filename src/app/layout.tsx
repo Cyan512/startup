@@ -12,11 +12,11 @@ export default function RootLayout({
       lang="en"
     >
       <body className="bg-white text-gray-800 antialiased">
-        <div className="min-h-screen w-full overflow-x-hidden bg-[#0a0a0a]">
-          <div className="flex flex-col lg:flex-row">
-            <Sidebar />
+        <div className="fixed inset-0 flex bg-[#0a0a0a]">
+          <Sidebar />
+          <main className="flex-1 overflow-y-auto">
             {children}
-          </div>
+          </main>
         </div>
       </body>
     </html>

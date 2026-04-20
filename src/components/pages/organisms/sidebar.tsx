@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 export default function Sidebar() {
   const pathname = usePathname()
   return (
-    <aside className="relative hidden w-64 shrink-0 flex-col justify-between p-10 lg:flex overflow-hidden">
+    <aside className="relative hidden h-screen w-64 shrink-0 flex-col justify-between overflow-hidden p-10 lg:flex">
       <div className="relative z-10">
         <p className="mb-1 text-xs uppercase tracking-[0.3em] text-gray-400">
           Erick

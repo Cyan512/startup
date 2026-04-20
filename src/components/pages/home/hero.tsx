@@ -8,7 +8,7 @@ const data = [
     title: "Desarrollo",
     subtitle: "Creamos sistemas web y aplicaciones a medida para impulsar tu negocio.",
     image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
-    href: "services"
+    href: "service"
   },
   {
     title: "Diseño",
